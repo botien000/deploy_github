@@ -1,0 +1,383 @@
+
+*{
+    width: 100%;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body{
+   
+    display: block;
+}
+.containerr{
+    width: 100%;
+    background-color: #f8f9fa;
+}
+header{  
+    width: 100%;
+    background-color: #2876b6;
+    height: 100px;  
+}
+header>.khungheader{ margin:0 auto;
+
+    width: 80%;
+    height: 100%;
+ 
+}
+.khungheader>.logo{
+    margin-right: 10px;
+    height: 100%;
+    width: 15%;
+    float: left;    
+}
+.nav{
+    float:left;
+    margin-top: 5px;
+}
+.nav>a{
+    margin-left:20px;
+    text-decoration: none;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+}
+.nav>a:hover{
+    text-decoration: none;
+
+}
+.khungheader>.timkiem_ul{
+
+    height: 100%;
+    width: 50%;
+    float: left;   
+}
+.timkiem_png{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 100%;
+    height: 50%;
+
+}
+.timkiem{
+
+    margin-top: 5px;
+    height: 80%;   
+}
+.timkiempng{
+ 
+    border-radius: 50px;
+    margin-left: -40px;
+    float:left;
+    height: 100%;
+    width: 50px;
+}
+.anhtk{
+    height: 100%;
+    width: 100%;
+}
+.khungheader>.cungsize{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 5px;
+    
+    height: 70%;
+    width: calc((19% + 80px) / 4);
+    float: left;   
+    margin-left: 2%;
+    
+    margin-bottom: 10px;
+}
+.khungheader .anhphone{
+    height: 100%;
+    width: 100%;    
+    margin-left: 30px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.khungheader .anhgiohang{
+    height: 100%;
+    width: 100%;    
+    margin-left: 30px;
+    font-size: 12px;
+
+}
+.khungheader .anhdangnhap{
+    height: 100%;
+    width: 100%;    
+    margin-left: 45px;
+    font-size: 12px;
+}
+.giohangicon{
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+}
+
+
+main{  margin:0 auto;
+    background-color: white;
+    height: 3680px;
+    width: 80%;
+}
+.sec1{
+   
+    height: 580px;
+    margin-bottom: 20px;
+}
+.sec2{
+
+    height: 980px;
+    margin-bottom: 20px;
+   
+}
+.sec3{
+   
+    height: 2080px;
+
+}
+.menu{
+   
+   
+    width: calc(25% - 10px);
+    float: left;
+    margin-right:10px;
+    /* calc((100% - 40px) / 5); */
+}
+.menu>.danhmuc{
+    padding-top: 5px;
+    background-color:#001E6C;
+    height: 30px;
+    text-align: center;
+    width: 100%;
+    font-size: 1vw;
+    color: white;
+}
+ul>.danhmucsp:hover{
+    background-color:
+    #FDE49C;
+    color:white;
+}
+ul>.danhmucsp{
+    padding-top: 13px;
+    text-align: left;
+    background-color: white;
+    border-bottom: 1px solid rgb(190, 202, 207);
+    height: calc(550px / 12);
+    list-style: none;
+}
+ul{
+    
+
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+}
+input{
+   border: 1px solid blue;
+}
+.sec1>.background{
+    
+    width: 75%;
+    height: 100%;
+    float:right;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.background_main{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.sec2>.tintuc{
+    background-color: brown;
+    height: 100%;
+    width: calc(25% - 10px);
+    float: left;
+    margin-right:10px;
+    border-radius: 20px;
+}
+.sec2>.tintuc>.sec2-sub{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 25%;
+   border-bottom: 1px solid white;
+}
+.time-date>.date{
+    width: 75%;
+    float:left;
+    padding-top: 30px;
+}
+.time-date>.time{
+    width: 25%;
+    float:right;
+    padding-top: 30px;
+}
+.sec2>.khuyenmai{
+    background-color: white;
+    border: 1px solid rgb(138, 20, 20);
+    height: 100%;
+    width: 75%;
+    float:right;
+    border-radius: 10px;
+    
+}
+.textkhuyenmai{
+    
+    width: 100%;
+    height: 5%;
+
+}
+.khuyenmai>.spkhuyenmai{
+    display: flex;
+    justify-content: center;   
+     align-items:stretch;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    width: 100%;
+    height:91%;
+    
+}
+.spkhuyenmai>.spcuthe{
+    margin-top: 2%;
+    margin-right: 2%;
+    width:calc(94% / 3); 
+    height: calc(96% / 2) ;   
+  
+    box-shadow: 5px 5px 5px 5px whitesmoke;
+}
+.sec3>.sub_sec3{
+    height: calc((100%) / 4);
+    border: 5px solid rgb(255, 255, 255);   
+}
+.sec3>.sub_sec3>.sec_loaisp{
+    border-radius: 10px;
+    height: 10%;
+    background-color:
+    #c5d4e7;
+    line-height: 50px;
+    border: 2px solid whitesmoke;
+}
+.sec3_spcuthe p{
+    font-size: 13px;
+}
+.sub_sec3>.sec3_sp{
+    border: 5px ;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;   
+     align-items:stretch;
+    flex-wrap: wrap;
+}
+.sec3_sp>.sec3_spcuthe{
+    margin-left: 1%;
+    width: 19%;
+    height: 47% ;   
+    box-shadow: 5px 5px 5px 5px whitesmoke;
+}
+
+footer{
+    margin:0 auto;
+    background-color: #2876b6;
+    height: 170px;
+}
+.khungfooter{margin:0 auto;
+
+    width: 80%;
+    height: 100%;
+}
+
+.footer{
+    padding-left: 20px;
+    padding-top: 8px;
+    
+    width:20%;
+    height: 100%;
+    margin: 0px 2.5%;
+    float: left;
+}
+/*hover*/
+.spcuthe>img:hover{
+    transform: scale(0.9);
+    transition:0.5s;
+}
+.sec3_spcuthe>img:hover{
+    transform: scale(0.9);
+    transition:0.5s;
+}
+
+
+
+/* responsive */
+@media (min-width:576px){
+
+}
+@media (min-width:768px){
+
+}
+
+
+@media (max-width:1200px){
+    main{
+        height: 5000px;
+    }
+     .sec3{
+        height:3400px;
+    } 
+
+  .sec3_sp>.sec3_spcuthe{
+        height: 18%;
+        width: 25%;
+           
+    } 
+    /* .sub_sec3>.sec3_sp{
+        
+        height: 150%;
+     
+    } */
+    footer{
+        height: 220px;
+    }
+}
+@media (max-width:1300px){
+    .sec3_spcuthe p{
+        font-size: 10px;
+    }
+
+}
+@media (max-width:1000px){
+    main{
+        height: 6000px;
+    }
+     .sec3{
+        height:4350px;
+    } 
+
+  .sec3_sp>.sec3_spcuthe{
+        height: 12%;
+        width: 33%;
+           
+    } 
+    /* .sub_sec3>.sec3_sp{
+        
+        height: 150%;
+     
+    } */
+    footer{
+        height: 220px;
+    }
+    .sec3_spcuthe p{
+        font-size: 8.5px;
+    }
+ }
+
